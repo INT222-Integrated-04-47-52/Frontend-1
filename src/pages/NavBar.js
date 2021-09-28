@@ -12,7 +12,7 @@ function NavBar() {
                 {" "}
                 <NavLink to="/" style={{ color: "black" }}>
                   {" "}
-                  MONGKOLTHORN{" "}
+                  MONGKOLTHORNSSSSSSSS{" "}
                 </NavLink>
               </b>
             </div>
