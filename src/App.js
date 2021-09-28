@@ -107,7 +107,7 @@ export default class App extends Component {
     const cart = this.state.cart;
     const products = this.state.products.map((p) => {
       if (cart[p.name]) {
-        axios.put(`http://localhost:3001/products/${p.id}`, { ...p });
+        axios.put(`${process.env.REACT_APP_API_URL}/${p.id}`, { ...p });
       }
       return p;
     });
