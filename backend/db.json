@@ -1,0 +1,175 @@
+{
+  "genders": [
+    {
+      "genderId": 300001,
+      "genderName": "men"
+    },
+    {
+      "genderId": 300002,
+      "genderName": "women"
+    }
+  ],
+  "kinds": [
+    {
+      "kindId": 400001,
+      "kindName": "shirt"
+    },
+    {
+      "kindId": 400002,
+      "kindName": "pants"
+    },
+    {
+      "kindId": 400003,
+      "kindName": "skirt"
+    },
+    {
+      "kindId": 400004,
+      "kindName": "cloth"
+    }
+  ],
+  "types": [
+    {
+      "typeId": 200001,
+      "typeName": "plain silk"
+    },
+    {
+      "typeId": 200002,
+      "typeName": "thai silk"
+    },
+    {
+      "typeId": 200003,
+      "typeName": "three baskets of silk"
+    },
+    {
+      "typeId": 200004,
+      "typeName": "plain cotton"
+    },
+    {
+      "typeId": 200005,
+      "typeName": "cotton mudmee"
+    },
+    {
+      "typeId": 200006,
+      "typeName": "natural dyed cotton"
+    },
+    {
+      "typeId": 200007,
+      "typeName": "mud fermented cotton"
+    }
+  ],
+  "colors": [
+    {
+      "colorId": 100001,
+      "colorCode": "#EC5959",
+      "colorName": "red"
+    },
+    {
+      "colorId": 100002,
+      "colorCode": " #ECA059",
+      "colorName": "orange"
+    },
+    {
+      "colorId": 100003,
+      "colorCode": "#F6E96C",
+      "colorName": "yellow"
+    },
+    {
+      "colorId": 100004,
+      "colorCode": " #ABEC59",
+      "colorName": "green"
+    },
+    {
+      "colorId": 100005,
+      "colorCode": " #59ECEC",
+      "colorName": "sky"
+    },
+    {
+      "colorId": 100006,
+      "colorCode": "#6C8AF6",
+      "colorName": "blue"
+    },
+    {
+      "colorId": 100007,
+      "colorCode": "#A359EC",
+      "colorName": "purple"
+    },
+    {
+      "colorId": 100008,
+      "colorCode": "#FF97FB",
+      "colorName": "pink"
+    },
+    {
+      "colorId": 100009,
+      "colorCode": "#94573C",
+      "colorName": "brown"
+    },
+    {
+      "colorId": 100010,
+      "colorCode": "#000000",
+      "colorName": "black"
+    },
+    {
+      "colorId": 100011,
+      "colorCode": "#989898",
+      "colorName": "gray"
+    },
+    {
+      "colorId": 100012,
+      "colorCode": "#FFFFFF",
+      "colorName": "white"
+    }
+  ],
+  "users": [
+    {
+      "email": "regular@example.com",
+      "password": "$2a$10$2myKMolZJoH.q.cyXClQXufY1Mc7ETKdSaQQCC6Fgtbe0DCXRBELG",
+      "id": 1,
+      "fname": "Khorapin",
+      "lname": "Gadpu"
+
+    },
+    {
+      "email": "admin@example.com",
+      "password": "$2a$10$w8qB40MdYkMs3dgGGf0Pu.xxVOOzWdZ5/Nrkleo3Gqc88PF/OQhOG",
+      "id": 2  ,
+      "fname": "Prapaporn",
+      "lname": "Sila"
+    }
+  ],
+  "products": [
+    {
+      "productId": "02e6mf1dor3cktxd6isr",
+      "pname": "Hello",
+      "description": "Helloooo",
+      "gender": {
+        "genderId": 300002,
+        "genderName": "women"
+      },
+      "kind": {
+        "kindId": 400001,
+        "kindName": "shirt"
+      },
+      "type": {
+        "typeId": 200002,
+        "typeName": "thai silk"
+      },
+      "color": [
+        {
+          "colorId": 100001,
+          "colorCode": "#EC5959",
+          "colorName": "red"
+        },
+        {
+          "colorId": 100002,
+          "colorCode": " #ECA059",
+          "colorName": "orange"
+        },
+        {
+          "colorId": 100003,
+          "colorCode": "#F6E96C",
+          "colorName": "yellow"
+        }
+      ]
+    }
+  ]
+}
