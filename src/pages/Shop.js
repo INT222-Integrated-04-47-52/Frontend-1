@@ -8,7 +8,6 @@ function Shop(){
         <div class="container">
             <div class="row">
             <Fliter />
-     
             <ProductList/>
           </div>
          </div> 
